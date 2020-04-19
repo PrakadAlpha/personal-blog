@@ -4,8 +4,6 @@ date: 2020-04-19T09:09:43.483Z
 title: WebSockets and Socket IO
 description: Basics Of Websockets and Socket IO
 ---
-# WebSockets and Socket IO
-
 ## Websockets:
 
 - Websockets is the underlying native protocal, that when required upgrades to use the websockets piggy backing with the http server.
