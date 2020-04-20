@@ -67,9 +67,9 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          Checkout my Github
+          Checkout my 
           {` `}
-          <a href="https://github.com/PrakadAlpha">PrakadAlpha</a>
+          <a href="https://github.com/PrakadAlpha">Github</a>
         </Footer>
       </Wrapper>
     )
