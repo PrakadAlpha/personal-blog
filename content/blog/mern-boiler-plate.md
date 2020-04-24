@@ -4,6 +4,8 @@ date: 2020-04-24T12:02:49.339Z
 title: MERN BOILER PLATE
 description: A well structured and commented boiler plate code for devs
 ---
+Link for the code on __*[Github](https://github.com/PrakadAlpha/mern-boiler-plate)*__
+
 ## 👷‍♂️ Contents of the backend
   - Node and Express server
   - Simple *User authentication* mechanism
@@ -67,3 +69,5 @@ Give a ⭐ __star__ if it was helpful, please do share!*
 ## ➕ Contribution  
 
  *Anyone is welcome to contribute. Please feel free to submit a Pull Request for typo fixes, spelling corrections and improvements etc..*
+
+Link for the code on __*[Github](https://github.com/PrakadAlpha/mern-boiler-plate)*__
