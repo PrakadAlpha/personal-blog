@@ -161,3 +161,5 @@ server.listen(5000, () => console.log('Listening to 5000'));
         .to(multipleRooms)
         .emit('any', ()=>{})
   ```
+### Project
+   __*A project based on Socket io and Chat based will be released soon..!!*__
