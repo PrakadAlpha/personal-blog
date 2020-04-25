@@ -13,9 +13,9 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `prakadheshwaran`, `prakadalpha`]}
+          keywords={[`blog`, `prakadalpha.me`, `javascript`, `react`, `prakadheshwaran`, `prakadalpha`]}
         />
-        <img style={{ margin: 0, borderRadius: '25%' }} src="./images/alpha.jpg" alt="Prakad Alpha" />
+        <img style={{ margin: 0, borderRadius: '50%' }} src="./images/alpha.jpg" alt="Prakad Alpha" />
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
