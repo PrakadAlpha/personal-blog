@@ -6,7 +6,7 @@ description: '" Ways to handle Sessions in Node Express and Security Pre-caution
 ---
 When i started to work with authentication i was confused to hell and went through some articles and here is the concise explanation on managing sessions particularly in NodeJS or any backend, lets get started..!
 
-## 🔥Latest methods Used For Auth Management in Node🔥
+## 🔥Methods Used For Auth in Node🔥
 
 - `express-session` [npm package](https://www.npmjs.com/package/express-session) provides an extensive support for session management with external memory adapters
 - `jsonwebtoken` [npm package](https://www.npmjs.com/package/jsonwebtoken) provides methods to implement JWT token based authentication.
