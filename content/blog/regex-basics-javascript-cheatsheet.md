@@ -60,8 +60,7 @@ description: "Basic usage of REGEX concepts and references in javascript "
   ## Symbols:
   
    - `^` ➡ Anything that starts with => `/^h/`
-   - `$` ➡ anything that ends with => `/world$/ `  
-   Ex - `/^hello$/` ➡ Must start with hello and end with hello
+   - `$` ➡ anything that ends with => `/world$/`  
    - `.` ➡ matches any one char
    - `*` ➡ matches any 0 or more times
    - `?` ➡ optional char => `/gre?a?y/` =>  e or a or none
@@ -69,31 +68,36 @@ description: "Basic usage of REGEX concepts and references in javascript "
   
   ## Brackets::
   
-   - `[]` used for char set ➡ `/gr[ea]y/` ➡ must be a or e
-   - `[^]` used for exception ➡ `/[^gf]ray/` ➡ must not be g or f
-   - `[a-zA-Z0-9]` used for range ➡ `/[A-Z]ray/` ➡ anything in that range
+   - `[]` ➡ used for char set  
+ 
+       `/gr[ea]y/` => must be a or e
+
+   - `[^]` ➡ Used for exception   
+      
+      `/[^gf]ray/` => Must not be g or f
+
+   - `[a-zA-Z0-9]` ➡ Used for range   
+     
+     `/[A-Z]ray/` => anything in that range
    
    - `{}` ➡ Quantifiers, Used to restrict the number of elements  
 
           `/re{2}g/` ➡ 2 e's are allowed  
           `/re{2,4}g/` ➡ 2 to 4 e's are allowed   
           `/re{2,}g/` ➡ atleast 2 times e
+
    - `()` ➡ Used for grouping, also `$1$2` (while replacing) or `\1\2` can be used for specifying the groups in same statement
    
  ## Shorthands:
   
-   - `\w` => word char or `_`(underscore)
-   - `\W` => non-word char
-   - `\d` => any digit
-   - `\D` => any non-digit
-   - `\s` => any space
-   - `\S` => any non space
-   - `/hell\b/` => word boundary(only that word) `hello` wont pass    
-
-       `\w` matches a, b, c, d, e, and f in "abc def"  
-       `\b` matches the (zero-width) position before a, after c, before d, and after f in "abc def"
-
-   
+   - `\w` ➡ word char or `_`(underscore)
+   - `\W` ➡ non-word char
+   - `\d` ➡ any digit
+   - `\D` ➡ any non-digit
+   - `\s` ➡ any space
+   - `\S` ➡ any non space
+   - `\b` ➡ word boundary(only that word, matches the zero-width position)
+    
   ## Lookaheads:
   
    Positive - `/s(?=y)/` ➡ s followed by y  
